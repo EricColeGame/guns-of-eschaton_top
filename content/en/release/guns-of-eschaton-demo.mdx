@@ -1,0 +1,125 @@
+export const metadata = {
+  title: "Guns of Eschaton Demo: First Impressions, Combat Tips, and What to Expect",
+  description: "A practical guide to the Guns of Eschaton demo: what to test, how to tune performance, and how to judge whether the full game is worth your money.",
+  category: "release",
+  date: "2026-10-08",
+}
+
+## Why the Guns of Eschaton Demo Deserves a Careful Look
+
+A demo is the cheapest review you will ever get, and the Guns of Eschaton demo puts the game's core loop directly in your hands before you spend a cent. Instead of trusting a trailer full of carefully staged kills, you get to feel the recoil, time the reloads, and decide for yourself whether the pacing clicks with how you actually play.
+
+The Guns of Eschaton demo also works as a stress test for your hardware. Apocalyptic shooters tend to lean on particle effects, dense enemy waves, and heavy lighting, which is exactly the kind of workload that exposes a weak GPU or a CPU bottleneck. Running the demo tells you two things at once: whether you enjoy the game, and whether your machine can carry it at a frame rate you can live with.
+
+This guide walks through what to examine, how to tune your settings, and how to turn a short trial build into a real buying decision.
+
+## What the Guns of Eschaton Demo Puts in Your Hands
+
+Demo builds vary wildly in scope. Some are a vertical slice carved from the middle of the campaign, others are a standalone prologue built specifically for public testing. Either way, the demo is a sample, not a summary — treat anything you see as representative of tone and mechanics rather than of total content volume.
+
+The table below outlines what trial builds in this genre usually include and what they usually withhold, so you can calibrate expectations before you download.
+
+| Area | Usually included in a demo | Usually withheld | Why it matters to you |
+|---|---|---|---|
+| Campaign slice | One to three playable levels or an opening chapter | Mid-game and late-game missions | Shows pacing, level design, and difficulty curve |
+| Arsenal | A limited subset of weapons | Full unlock tree and upgrades | You can judge feel, not long-term variety |
+| Enemy roster | Basic and mid-tier enemies | Bosses and late-game variants | Combat depth may look smaller than it is |
+| Progression | Minimal or none | Skill trees, crafting, unlocks | Don't judge the meta-game from a demo |
+| Save data | Usually self-contained | Often incompatible with the full release | Assume progress will not carry over |
+| Performance | Full graphics menu, sometimes | Post-launch patches and optimizations | Demo builds are rarely the final polish pass |
+
+One practical note: because the title's name evokes end-times imagery, expect the art direction and audio design to lean hard into dread, ruin, and oppressive atmosphere. That mood is a core part of the pitch, so pay attention to whether it holds up over a full session rather than just a two-minute trailer.
+
+## Combat and Weapon Feel: How to Test the Arsenal Properly
+
+Shooting is the whole product here. Everything else — story, progression, cosmetics — is scaffolding around the question of whether pulling the trigger feels good. Fortunately, that question is answerable in a demo, and it's answerable in about twenty minutes if you test deliberately instead of just blasting through the level.
+
+Here is a checklist worth running through while you play the Guns of Eschaton demo:
+
+- **Fire each weapon at a wall from a fixed distance.** Watch the spread pattern and whether it stays consistent or drifts randomly.
+- **Reload under pressure.** A reload that feels too long is a design choice; a reload with unclear timing feedback is a design flaw.
+- **Test the audio mix.** Gunshots, hit markers, and enemy barks should each occupy their own space. If everything smears together, you lose situational awareness in a crowded fight.
+- **Check hit feedback on armored versus unarmored targets.** The difference should be obvious without a UI element telling you.
+- **Run the same encounter twice with different weapons.** If the second run feels identical, the arsenal lacks identity.
+
+| Test | What to look for | Red flag |
+|---|---|---|
+| Recoil pattern | Predictable, learnable climb | Random spray with no readable pattern |
+| Reload timing | Clear animation and audio cues | Ambiguous when the weapon is ready |
+| Sound design | Distinct layers for each weapon | Everything sounds like the same sample |
+| Hit confirmation | Visual and audio response on impact | Enemies absorb damage with no feedback |
+| Ammo economy | Tension without starvation | Constant scavenging that kills momentum |
+
+Player experience consistently points to the same conclusion across this genre: if the shooting does not feel right in the demo, no amount of content in the full release will fix it. Movement matters too. Strafe speed, jump weight, and how quickly you recover from a sprint all shape whether firefights feel tactical or chaotic.
+
+## Performance and Settings: Getting a Smooth Run
+
+Because demo builds are often compiled before final optimization passes, they can run noticeably worse than the finished product. That cuts both ways — a rough demo does not necessarily mean a rough launch, and a smooth demo does not guarantee one either. Still, the settings menu tells you a lot about how seriously the developers treat the PC version.
+
+Start by dropping the most expensive settings first, then work upward until you find the frame rate you want. The table below lists the usual suspects in priority order.
+
+| Setting | Performance impact | Suggested starting point |
+|---|---|---|
+| Resolution / upscaling mode | Very high | Use a quality upscaling preset before lowering resolution |
+| Shadows and ambient occlusion | High | Medium; these rarely change gameplay readability |
+| Anti-aliasing | Medium | Low or a temporal option if available |
+| Motion blur | Low, but affects clarity | Off — it hides detail in fast fights |
+| Field of view | Minimal | Raise it; a wider view helps in wave-based combat |
+| Frame cap / V-sync | Minimal | Cap slightly below your monitor's refresh rate for steadier input |
+
+Two more habits worth adopting. First, run the in-game benchmark if one exists — it is far more reliable than eyeballing the first corridor. Second, check frame times rather than just average FPS. A game sitting at a steady 90 frames per second with occasional 200 ms spikes will feel worse than a locked 60.
+
+If you want to compare your results against other players or check whether a newer build has landed, the [official Steam storefront](https://store.steampowered.com/) is the most reliable place to confirm the current version and read patch notes.
+
+## Is the Full Game Worth It? A Demo Scoring Rubric
+
+Once you have finished the demo, resist the urge to decide based on a gut feeling alone. Score what you actually experienced. The rubric below gives each category a weight, so a demo that nails combat but stumbles on presentation does not get an unfairly harsh verdict.
+
+| Criteria | Weight | What earns a high score |
+|---|---|---|
+| Gun feel and feedback | 30% | Distinct weapons, readable recoil, satisfying impacts |
+| Enemy design | 20% | Enemies that force different responses, not just more health |
+| Level and encounter design | 20% | Arenas that reward positioning and movement |
+| Performance stability | 15% | Consistent frame times on reasonable hardware |
+| Atmosphere and audio | 10% | Cohesive tone that supports tension rather than noise |
+| Progression signals | 5% | A hint of depth without overwhelming the demo |
+
+Add the weighted scores. Anything above roughly 80 percent is a strong signal. Between 60 and 80 percent, look at whether your complaints are things patches can fix — performance and balance usually are, core combat feel usually is not.
+
+It also helps to know which problems are worth reporting and which are worth ignoring, since a demo is a work in progress.
+
+| Symptom | Likely cause | Quick fix |
+|---|---|---|
+| Stutter when entering new areas | Shader compilation or asset streaming | Lower texture quality; test again after a restart |
+| Input feels delayed | Frame cap, V-sync, or high mouse smoothing | Disable V-sync, enable a raw input option |
+| Crashes on launch | Outdated GPU drivers | Update drivers and verify game files |
+| Audio cutting out | Sample rate mismatch in system settings | Match the in-game output to your Windows setting |
+
+## Feedback, Community Reports, and Following Development
+
+Demo periods are one of the few times when player feedback genuinely shapes a release. Developers watch forums, Discord servers, and store reviews closely during this window, and bug reports filed early tend to get fixed early.
+
+A few things make feedback more useful:
+
+- **Be specific about reproduction.** "It crashed" helps nobody; "it crashed when I reloaded during the third wave" is actionable.
+- **Separate bugs from preferences.** A balance opinion is not a defect, and framing it that way gets it dismissed.
+- **Include your hardware.** Frame rate complaints without a GPU and CPU listed are impossible to act on.
+- **Report in the official channel.** Community reports suggest that store reviews are read for sentiment, while bug trackers are read for fixes.
+
+Community reports also tend to surface things the developers never mention — hidden routes, alternate weapon uses, or unintended movement tech that makes certain encounters trivial. Those discoveries often define how a game is played at a high level, and finding one in the Guns of Eschaton demo is a legitimate reason to get excited about the full release.
+
+Finally, keep an eye on the gap between the demo build and launch. If the demo is months old by the time the game ships, assume several rounds of balancing have happened since. If it is a near-final build, treat your experience as close to the real thing.
+
+## FAQ
+
+**Is the Guns of Eschaton demo free to try?**
+Demos for games like this are almost always free downloads on the storefront where the game is sold. Check the official store listing for the current availability in your region, since demo windows are sometimes time-limited.
+
+**How long does the demo take to finish?**
+That depends entirely on the build's scope. A single-level vertical slice might take twenty to forty minutes, while a standalone prologue can run a couple of hours. Plan on at least one full playthrough plus a second run to test a different weapon loadout.
+
+**Will my progress carry over to the full game?**
+In most cases, no. Save data from a trial build is rarely compatible with the retail version because balance values and level data change. Treat demo progress as disposable and focus on evaluating feel rather than grinding.
+
+**What should I do if the demo runs poorly on my PC?**
+Lower shadows, anti-aliasing, and motion blur first, then enable an upscaling preset. Update your GPU drivers and verify the game files. If performance is still unstable after that, it is reasonable to wait for launch-day impressions before buying, since demo builds are often compiled before final optimization.

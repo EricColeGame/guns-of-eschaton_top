@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Mécaniques soulslike de Guns of Eschaton expliquées : munitions, fenêtres de parade et réglage des boss",
+  description: "Une plongée en profondeur dans les mécaniques soulslike de Guns of Eschaton — économie de munitions, fenêtres de parade, i-frames, création de build et les lectures de boss qui séparent la victoire du wipe.",
+  category: "mechanics",
+  date: "2026-10-08",
+}
+
+## Pourquoi la formule soulslike de Guns of Eschaton semble différente
+
+La plupart des soulslikes vous apprennent à réduire la distance, à échanger deux coups d'épée, puis à esquiver avant que le boss ne punisse votre gourmandise. Un soulslike comme Guns of Eschaton inverse ce rythme : vos dégâts viennent des armes à feu, si bien que les affrontements se décident souvent à distance avant même que l'ennemi ne réduise l'écart. Si vous venez d'un background orienté corps à corps, ce seul changement se répercute sur tous les systèmes — endurance, soins, télégraphes des boss et tout le concept de gestion de la distance — et c'est exactement pourquoi la boucle de combat soulslike de Guns of Eschaton met quelques heures à faire tilt.
+
+La raison pour laquelle cela compte est simple. Les dégâts à distance dans un soulslike traditionnel ne sont généralement qu'un outil de soutien : un moyen d'attirer les ennemis, d'égratigner un boss ou de cheese une salle difficile. Quand les armes à feu deviennent l'arme principale, les développeurs doivent rééquilibrer l'agressivité des ennemis, la taille des arènes et les frames de récupération en partant du principe que le joueur peut toucher à vingt mètres de distance. Bien lire ces rééquilibrages, c'est ce qui sépare une run fluide d'un mur infranchissable.
+
+## La boucle centrale : comment le gunplay remodèle les mécaniques soulslike
+
+Le combat soulslike est fondamentalement une conversation sur les ressources. Les armes ajoutent une quatrième monnaie — les munitions — et celle-ci interagit avec les trois autres d'une manière facile à sous-estimer. Chaque tir est un engagement, et chaque rechargement est une fenêtre que l'ennemi peut punir.
+
+| Ressource | Ce qu'elle conditionne | Récupération typique | Comment jouer avec |
+|---|---|---|---|
+| Endurance | Roulades, sprints, enchaînements de corps à corps | Régénération passive ; en pause pendant la garde | Ne sprintez jamais dans une fenêtre d'attaque de boss |
+| Munitions du chargeur | Dégâts burst, accumulation de stagger | Animation de rechargement, généralement non annulable par esquive | Rechargez à couvert ou après un stagger confirmé |
+| Munitions de réserve | Soutien à long terme sur un niveau | Points de repos, consommables, butins ennemis | Traitez-les comme un budget de combat de boss, pas comme un bac à sable |
+| Charges de soin | Correction d'erreurs | Restaurées aux points de contrôle | Dépensez-les pour vos erreurs, pas pour les dégâts d'usure |
+| Jauge de focus / spéciale | Tirs lourds, buffs, arts d'arme | Se remplit avec les coups réussis | Gardez-la pour les transitions de phase |
+
+L'expérience des joueurs suggère que le plus gros ajustement pour les vétérans des soulslikes est d'accepter qu'un rechargement est un véritable engagement. Dans les jeux orientés corps à corps, vous pouvez esquiver presque n'importe quoi. Ici, un rechargement mal placé peut vous coûter une barre de vie entière, car l'animation vous verrouille sur place.
+
+Autre différence structurelle : les ennemis d'un soulslike comme Guns of Eschaton ont tendance à réduire la distance de façon agressive plutôt qu'à tourner en rond. Cela signifie que votre première tâche dans tout nouvel affrontement n'est pas « comment infliger des dégâts », mais « comment créer la demi-seconde dont j'ai besoin pour tirer ».
+
+## L'économie des munitions : la ressource qui remplace l'angoisse de l'Estus
+
+Si la gestion de l'endurance est l'âme des soulslikes de corps à corps, la gestion des munitions est l'âme ici. La tension ne réside pas dans le fait de savoir si vous pouvez placer le coup — mais si le coup vaut la balle.
+
+| Palier de munitions | Rôle principal | Comportement typique | Niveau de priorité |
+|---|---|---|---|
+| Balles standard | DPS soutenu, nettoyage des mobs | Généreuses, lâchées par la plupart des ennemis | Faible — utilisez sans compter |
+| Balles lourdes / chargées | Stagger, bris d'armure, phases de boss | Limitées, coûteuses à réapprovisionner | Élevée — gardez-les pour les ouvertures |
+| Balles élémentaires ou de statut | Exploitation des faiblesses ennemies | Fabriquées ou achetées | Situationnel — adaptez-les au boss |
+| Balles utilitaires | Contrôle de foule, interruptions | Rares, souvent non récupérables | Réservez-les aux urgences |
+
+Une règle pratique que les retours de la communauté ne cessent de répéter : n'entrez jamais dans l'arène d'un boss avec un chargeur plein et un plan vide. Entrez en sachant quelle attaque vous punirez avec des balles lourdes et laquelle vous punirez avec des tirs standard.
+
+Trois habitudes qui paient immédiatement :
+
+- **Rechargez après chaque fenêtre sûre**, pas après chaque élimination. Le temps mort, c'est des munitions gratuites.
+- **Comptez vos balles lourdes en fonction des phases du boss.** Si un boss a trois phases et que vous avez neuf balles lourdes, cela fait trois par phase — pas neuf dans l'ouverture.
+- **N'entassez pas.** Les joueurs qui terminent une run avec 200 balles standard inutilisées sont presque toujours morts face à un boss qu'ils auraient pu surpasser en dégâts.
+
+## Fenêtres de parade, i-frames et timing défensif
+
+Un combat centré sur les armes à feu ne supprime pas la panoplie défensive du soulslike — il en modifie la pondération. L'esquive reste extrêmement importante, mais la structure des récompenses change, car vous pouvez punir à distance plutôt que d'avoir besoin d'être à portée de corps à corps.
+
+| Option défensive | Exigence de timing | Récompense | Risque |
+|---|---|---|---|
+| Roulade d'esquive | Faible–moyenne | I-frames, repositionnement, préparations d'annulation de rechargement | Coût en endurance ; une roulade mal chronométrée vous laisse à découvert |
+| Pas de recul | Moyenne | Désengagement rapide pour rétablir la distance de tir | Fenêtre d'i-frames courte, facile à punir |
+| Garde / blocage | Faible | Annule les dégâts d'usure, tient le terrain | Drain d'endurance ; certaines attaques transpercent |
+| Parade / déviation | Élevée | Stagger massif, tir lourd gratuit | Un échec signifie généralement encaisser un combo complet |
+
+L'observation clé pour un soulslike comme Guns of Eschaton est que les parades valent plus ici que dans un jeu purement corps à corps. Une parade réussie n'ouvre pas seulement une punition de corps à corps — elle ouvre une balle lourde gratuite à bout portant, ce qui est généralement l'action la plus dévastatrice à votre disposition. Cela rend l'apprentissage d'un ou deux timings de parade fiables par boss bien plus précieux que la mémorisation d'un moveset entier.
+
+Si la parade vous semble hors de portée, la solution de repli est une gestion disciplinée de la distance. Restez juste en dehors de la portée d'élan de l'ennemi, laissez l'attaque dans le vide et tirez pendant la récupération. C'est plus lent, mais c'est constant.
+
+## Création de build : statistiques, scaling et archétypes d'armes
+
+La création de build dans ce style de jeu suit généralement le même squelette que n'importe quel soulslike : quelques statistiques clés, des soft caps et un scaling d'arme qui récompense l'engagement plutôt que la dispersion.
+
+| Archétype | Investissement principal | Secondaire | Style de jeu | Difficulté |
+|---|---|---|---|---|
+| Tireur d'élite | Stat de dégâts / précision | Endurance | Longue portée, burst sur cible unique | Indulgent à distance, punitif au contact |
+| Gunslinger | Cadence de tir / maniabilité | Capacité de munitions | Pression à moyenne portée, rechargements rapides | Équilibré, idéal pour les premières runs |
+| Brute | Vitalité + armes lourdes | Endurance | Stagger à courte portée, échanges tanky | Fort contre les boss, faible contre les foules |
+| Hybride lanceur | Stat de focus / statut | Armes à feu légères | Dégâts élémentaires, utilité | Plafond élevé, demande de la connaissance |
+| Canon de verre | Dégâts max, défense minimale | Mobilité | Potentiel de one-shot, aucune marge | Experts uniquement |
+
+Un principe général à intérioriser : choisissez une statistique de dégâts et engagez-vous. Se diviser entre deux statistiques de dégâts est la façon la plus courante pour les nouveaux joueurs de se retrouver sous-optimisés au milieu du jeu, car le scaling récompense la profondeur, pas l'étendue.
+
+## Combats de boss et lecture des affrontements
+
+Le design des boss dans un soulslike axé sur les armes à feu doit résoudre un problème spécifique : comment faire en sorte qu'un joueur à distance se sente menacé ? Les réponses habituelles sont la compression de l'arène, les attaques de rapprochement et les attaques à projectiles qui vous forcent à bouger plutôt qu'à rester planté à tirer.
+
+| Comportement du boss | Ce qu'il signale | Réponse correcte |
+|---|---|---|
+| Coups lents et amples | Fenêtre de punition après la récupération | Tirez deux à trois balles standard, puis réinitialisez |
+| Rapprochement soudain | Tentative de contrôle de l'arène | Esquivez latéralement, pas en arrière — reculer vous maintient à portée |
+| Barrage de projectiles | Force le déplacement | Faites des strafes et tirez dans les intervalles ; ne restez pas immobile |
+| Rugissement de transition de phase | Fenêtre de dégâts gratuits | Videz immédiatement vos balles lourdes |
+| Posture blindée | Réduction des dégâts | Passez aux balles de stagger ou élémentaires |
+
+Les retours de la communauté signalent systématiquement un schéma : les joueurs qui meurent le plus souvent sont ceux qui tentent de gagner la course aux dégâts. Dans un soulslike comme Guns of Eschaton, le boss gagne généralement cette course. Les joueurs qui réussissent sont ceux qui traitent chaque attaque comme une question — « qu'est-ce que cela me permet de faire ? » — plutôt que comme un obstacle à traverser à coups de tirs.
+
+## Erreurs courantes et conseils pratiques
+
+- **Traiter le jeu comme un shooter avant tout.** Les instincts de couverture vous font mourir. Les ennemis sont conçus pour punir le jeu statique.
+- **Ignorer l'endurance parce qu'on a une arme à feu.** Les roulades et les sprints coûtent toujours de l'endurance, et tomber à sec en plein combo est fatal.
+- **Trop recharger.** Recharger après chaque tir unique fait perdre plus de temps que cela n'en fait gagner.
+- **Négliger totalement le corps à corps.** Tout build d'armes à feu a besoin d'une option de corps à corps de secours pour quand les ennemis réduisent la distance.
+- **Sauter le contenu optionnel.** Les matériaux d'amélioration et les améliorations de capacité de munitions sont généralement cachés derrière des chemins annexes.
+
+Si vous voulez vérifier la disponibilité actuelle, les notes de patch ou les détails de plateforme, la [fiche Steam de Guns of Eschaton](https://store.steampowered.com/search/?term=Guns+of+Eschaton) est le point de départ le plus fiable.
+
+## FAQ
+
+**Un soulslike comme Guns of Eschaton est-il plus difficile qu'un soulslike de corps à corps traditionnel ?**
+Pas intrinsèquement, mais il exige un ensemble de compétences différent. Les soulslikes de corps à corps récompensent la mémorisation des patterns et le timing à courte portée. Un soulslike axé sur les armes à feu récompense la gestion de la distance, la planification des ressources et le fait de savoir quand *ne pas* tirer. La plupart des joueurs trouvent les premières heures plus difficiles et le milieu du jeu plus facile.
+
+**Quelle statistique monter en premier ?**
+La vitalité ou son équivalent, puis votre statistique de dégâts principale. La survie se cumule — chaque point de vie supplémentaire vous donne plus de chances d'apprendre un pattern de boss, ce qui vaut plus que les dégâts bruts au début.
+
+**Puis-je terminer le jeu sans parer ?**
+Oui. La parade est un raccourci très rentable, pas une obligation. Une gestion disciplinée de la distance et l'esquive vous porteront jusqu'au bout, même si chaque combat prend plus de temps.
+
+**Comment gérer mes munitions pendant les longs combats de boss ?**
+Budgétez vos balles lourdes par phase, rechargez pendant les fenêtres de stagger confirmées et utilisez les balles standard pour les dégâts d'usure. Si vous tombez à sec avant la phase finale, votre statistique de dégâts est probablement trop basse ou vous prenez des tirs à faible probabilité de réussite.
+
+Maîtrisez les fondamentaux — discipline d'endurance, budgétisation des munitions et gestion patiente de la distance — et la boucle soulslike de Guns of Eschaton cessera de ressembler à une expérience hybride pour devenir un genre à part entière.

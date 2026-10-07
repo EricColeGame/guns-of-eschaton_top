@@ -8,6 +8,12 @@
   },
   "nav": {
     "home": "Home",
+    "guide": "Guide",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "modes": "Modes",
+    "platforms": "Platforms",
+    "release": "Release",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
   },
@@ -399,12 +405,9 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Steam",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -416,6 +419,30 @@
     "officialMedia": "Official media",
     "home": "Home",
     "noGuidesAvailable": "No guides available yet. Check back soon!"
+  },
+  "guide": {
+    "overviewTitle": "Guns of Eschaton Guides",
+    "overviewDescription": "Start here for Guns of Eschaton beginner guides, gameplay walkthroughs, boss strategies, character creation tips, and system requirements."
+  },
+  "characters": {
+    "overviewTitle": "Guns of Eschaton Characters",
+    "overviewDescription": "Meet the Guns of Eschaton cast, from the main survivor to the developers, art director, and voice actors behind the post-apocalyptic Western."
+  },
+  "mechanics": {
+    "overviewTitle": "Guns of Eschaton Game Mechanics",
+    "overviewDescription": "Understand the Guns of Eschaton soulslike systems: weapons, bosses, difficulty settings, open-world structure, story, and core combat gameplay."
+  },
+  "modes": {
+    "overviewTitle": "Guns of Eschaton Game Modes",
+    "overviewDescription": "Compare every way to play Guns of Eschaton, including single-player, co-op, multiplayer, PvP, and crossplay support."
+  },
+  "platforms": {
+    "overviewTitle": "Guns of Eschaton Platforms",
+    "overviewDescription": "Check where Guns of Eschaton is available, with details on PC, Steam, PS5, Xbox, and Nintendo Switch versions."
+  },
+  "release": {
+    "overviewTitle": "Guns of Eschaton Release Info",
+    "overviewDescription": "Follow Guns of Eschaton release date news, beta and demo availability, pricing, and the latest trailers."
   },
   "footer": {
     "aboutTitle": "Guns of Eschaton Wiki",

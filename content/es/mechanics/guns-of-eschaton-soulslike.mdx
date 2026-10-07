@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Mecánicas soulslike de Guns of Eschaton explicadas: munición, ventanas de parry y ajuste de jefes",
+  description: "Un análisis profundo de las mecánicas soulslike de Guns of Eschaton: economía de munición, ventanas de parry, i-frames, creación de builds y las lecturas de jefes que separan las victorias de las derrotas.",
+  category: "mechanics",
+  date: "2026-10-08",
+}
+
+## Por qué la fórmula soulslike de Guns of Eschaton se siente diferente
+
+La mayoría de los soulslikes te entrenan para acortar distancia, intercambiar dos espadazos y rodar fuera antes de que el jefe castigue tu codicia. Un soulslike de Guns of Eschaton invierte ese ritmo: tu daño proviene de las armas de fuego, así que los encuentros con frecuencia se deciden a distancia antes de que el enemigo llegue a cerrar la brecha. Si vienes de un trasfondo centrado en el cuerpo a cuerpo, ese único cambio se propaga por todos los sistemas —estamina, curación, telegráficos de jefes y todo el concepto de espaciado— y es exactamente por lo que el bucle de combate soulslike de Guns of Eschaton tarda unas horas en hacer clic.
+
+La razón por la que importa es simple. El daño a distancia en un soulslike tradicional suele ser una herramienta de apoyo: una forma de atraer enemigos, desgastar a un jefe o pasar tramposamente una sala difícil. Cuando las armas de fuego se convierten en el arma principal, los desarrolladores tienen que reequilibrar la agresividad enemiga, el tamaño de la arena y los fotogramas de recuperación partiendo de la suposición de que el jugador puede acertar desde veinte metros de distancia. Leer correctamente esos reequilibrios es lo que separa una partida fluida de un muro infranqueable.
+
+## El bucle central: cómo el gunplay reformula las mecánicas soulslike
+
+El combate soulslike es fundamentalmente una conversación sobre recursos. Las armas añaden una cuarta moneda —la munición— y esta interactúa con las otras tres de formas fáciles de subestimar. Cada disparo es un compromiso, y cada recarga es una ventana que el enemigo puede castigar.
+
+| Recurso | Qué limita | Recuperación típica | Cómo jugar en torno a ello |
+|---|---|---|---|
+| Estamina | Rodadas, esprints, seguimientos cuerpo a cuerpo | Regeneración pasiva; se pausa al bloquear | Nunca hagas sprint hacia una ventana de ataque de un jefe |
+| Munición del cargador | Daño en ráfaga, acumulación de stagger | Animación de recarga, normalmente no cancelable con esquiva | Recarga tras cobertura o después de un stagger confirmado |
+| Munición de reserva | Sostenibilidad a largo plazo durante un nivel | Puntos de descanso, consumibles, botín de enemigos | Trátala como un presupuesto para la pelea de jefe, no como un arenero |
+| Cargas de curación | Corrección de errores | Se restauran en puntos de control | Úsalas en errores, no en daño residual |
+| Medidor de enfoque / especial | Disparos pesados, mejoras, artes de arma | Se acumula con impactos exitosos | Guárdalo para las transiciones de fase |
+
+La experiencia de los jugadores sugiere que el mayor ajuste para los veteranos de los soulslikes es aceptar que recargar es un compromiso real. En juegos centrados en el cuerpo a cuerpo puedes rodar para salir de casi cualquier cosa. Aquí, una recarga mal cronometrada puede costarte una barra de vida entera porque la animación te inmoviliza.
+
+Otra diferencia estructural: los enemigos en un soulslike de Guns of Eschaton tienden a cerrar distancia agresivamente en lugar de circular. Eso significa que tu primer trabajo en cualquier encuentro nuevo no es «cómo hago daño», sino «cómo creo el medio segundo que necesito para disparar».
+
+## Economía de munición: el recurso que reemplaza la ansiedad por el Estus
+
+Si la gestión de estamina es el alma de los soulslikes cuerpo a cuerpo, la gestión de munición es el alma aquí. La tensión no es si puedes acertar el golpe, sino si el golpe vale la bala.
+
+| Nivel de munición | Rol principal | Comportamiento típico | Nivel de prioridad |
+|---|---|---|---|
+| Balas estándar | DPS sostenido, limpieza de enemigos comunes | Abundantes, caen de la mayoría de enemigos | Baja — úsalas libremente |
+| Balas pesadas / cargadas | Stagger, rotura de armadura, fases de jefes | Limitadas, caras de reponer | Alta — guárdalas para las aperturas |
+| Balas elementales o de estado | Explotar debilidades enemigas | Fabricadas o compradas | Situacional — adáptalas al jefe |
+| Balas utilitarias | Control de masas, interrupciones | Raras, a menudo no reembolsables | Resérvalas para emergencias |
+
+Una regla práctica que los reportes de la comunidad repiten constantemente: nunca entres a la arena de un jefe con el cargador lleno y un plan vacío. Entra sabiendo qué ataque castigarás con balas pesadas y cuál castigarás con disparo estándar.
+
+Tres hábitos que dan resultado de inmediato:
+
+- **Recarga después de cada ventana segura**, no después de cada baja. El aire muerto es munición gratis.
+- **Cuenta tus balas pesadas según las fases del jefe.** Si un jefe tiene tres fases y tienes nueve balas pesadas, son tres por fase —no nueve en la apertura.
+- **No acumules.** Los jugadores que terminan una partida con 200 balas estándar sin usar casi siempre murieron contra un jefe al que podrían haber superado en daño.
+
+## Ventanas de parry, i-frames y timing defensivo
+
+El combate centrado en armas de fuego no elimina el kit defensivo soulslike: lo reequilibra. Esquivar sigue importando enormemente, pero la estructura de recompensas cambia porque puedes castigar a distancia en lugar de necesitar estar dentro del alcance cuerpo a cuerpo.
+
+| Opción defensiva | Exigencia de timing | Recompensa | Riesgo |
+|---|---|---|---|
+| Rodada de esquiva | Baja–media | I-frames, reposicionamiento, preparación de cancelación de recarga | Coste de estamina; una rodada mal cronometrada te deja expuesto |
+| Paso atrás | Media | Desenganche rápido para restablecer el alcance de disparo | Ventana corta de i-frames, fácil de castigar |
+| Guardia / bloqueo | Baja | Niega daño residual, mantiene la posición | Drena estamina; algunos ataques perforan |
+| Parry / desvío | Alta | Stagger masivo, disparo pesado gratis | Fallarlo normalmente significa comerte un combo completo |
+
+La idea clave para un soulslike de Guns of Eschaton es que los parries valen más aquí que en un juego puramente cuerpo a cuerpo. Un parry exitoso no solo abre un castigo cuerpo a cuerpo: abre una bala pesada gratis a quemarropa, que suele ser la acción de mayor daño disponible para ti. Eso hace que aprender uno o dos timings de parry fiables por jefe sea mucho más valioso que memorizar un moveset completo.
+
+Si el parry te parece fuera de alcance, el recurso alternativo es un espaciado disciplinado. Mantente justo fuera del alcance de embestida del enemigo, deja que el ataque falle y dispara durante la recuperación. Es más lento, pero es consistente.
+
+## Creación de builds: estadísticas, escalado y arquetipos de armas
+
+La creación de builds en este estilo de juego suele seguir el mismo esqueleto que cualquier soulslike: unas pocas estadísticas centrales, soft caps y escalado de armas que recompensa el compromiso en lugar de dispersarte.
+
+| Arquetipo | Inversión principal | Secundaria | Estilo de juego | Dificultad |
+|---|---|---|---|---|
+| Tirador de precisión | Estadística de daño / precisión | Estamina | Ráfaga a larga distancia contra un solo objetivo | Indulgente a distancia, castigador de cerca |
+| Pistolero | Cadencia de disparo / manejo | Capacidad de munición | Presión a media distancia, recargas rápidas | Equilibrado, ideal para primeras partidas |
+| Bruto | Vitalidad + armas pesadas | Estamina | Stagger a corta distancia, intercambios resistentes | Fuerte contra jefes, débil contra multitudes |
+| Lanzador híbrido | Estadística de enfoque / estado | Armas de fuego ligeras | Daño elemental, utilidad | Techo alto, requiere conocimiento |
+| Cañón de cristal | Daño máximo, defensa mínima | Movilidad | Potencial de un solo disparo, cero margen | Solo para expertos |
+
+Un principio general que vale la pena interiorizar: elige una estadística de daño y comprométete. Dividirte entre dos estadísticas de daño es la forma más común en que los jugadores nuevos terminan con poco poder a mitad del juego, porque el escalado recompensa la profundidad, no la amplitud.
+
+## Peleas de jefes y lectura de encuentros
+
+El diseño de jefes en un soulslike impulsado por armas de fuego tiene que resolver un problema específico: ¿cómo haces que un jugador a distancia se sienta amenazado? Las respuestas habituales son compresión de arena, ataques de cierre de distancia y ataques basados en proyectiles que te obligan a moverte en lugar de quedarte quieto y disparar.
+
+| Comportamiento del jefe | Qué señala | Respuesta correcta |
+|---|---|---|
+| Golpes lentos y amplios | Ventana de castigo tras la recuperación | Dispara dos o tres balas estándar y luego reinicia |
+| Cierre de distancia repentino | Intento de control de arena | Esquiva hacia los lados, no hacia atrás —hacia atrás te mantiene en rango |
+| Lluvia de proyectiles | Forzar movimiento | Desplázate lateralmente y dispara en los huecos; no te quedes quieto |
+| Rugido de transición de fase | Ventana de daño gratis | Descarga balas pesadas de inmediato |
+| Postura blindada | Reducción de daño | Cambia a balas de stagger o elementales |
+
+Los reportes de la comunidad señalan consistentemente un patrón: los jugadores que más mueren son los que intentan ganar la carrera de daño. En un soulslike de Guns of Eschaton, el jefe suele ganar esa carrera. Los jugadores que triunfan son los que tratan cada ataque como una pregunta —«¿qué me permite hacer esto?»— en lugar de como un obstáculo que atravesar a disparos.
+
+## Errores comunes y consejos prácticos
+
+- **Tratar el juego como un shooter ante todo.** Los instintos de cubrirse te matan. Los enemigos están diseñados para castigar el juego estático.
+- **Ignorar la estamina porque tienes un arma.** Rodar y esprintar siguen costando estamina, y quedarte sin ella a mitad de combo es fatal.
+- **Recargar en exceso.** Recargar después de cada disparo desperdicia más tiempo del que ahorra.
+- **Descuidar por completo el cuerpo a cuerpo.** Toda build de armas de fuego necesita una opción cuerpo a cuerpo de respaldo para cuando los enemigos cierren la distancia.
+- **Saltarse el contenido opcional.** Los materiales de mejora y las mejoras de capacidad de munición suelen estar detrás de caminos secundarios.
+
+Si quieres consultar la disponibilidad actual, las notas del parche o los detalles de plataformas, la [ficha de Guns of Eschaton en Steam](https://store.steampowered.com/search/?term=Guns+of+Eschaton) es el punto de partida más fiable.
+
+## Preguntas frecuentes
+
+**¿Un soulslike de Guns of Eschaton es más difícil que un soulslike tradicional cuerpo a cuerpo?**
+No por naturaleza, pero exige un conjunto de habilidades diferente. Los soulslikes cuerpo a cuerpo recompensan memorizar patrones y el timing a corta distancia. Un soulslike centrado en armas de fuego recompensa el espaciado, la planificación de recursos y saber cuándo *no* disparar. La mayoría de los jugadores encuentra las primeras horas más difíciles y la mitad del juego más fácil.
+
+**¿Qué estadística debería subir primero?**
+Vitalidad o su equivalente, y luego tu estadística principal de daño. La supervivencia se acumula: cada punto extra de vida te da más oportunidades de aprender el patrón de un jefe, lo cual vale más que el daño bruto al principio.
+
+**¿Puedo pasarme el juego sin hacer parry?**
+Sí. Hacer parry es un atajo de alta recompensa, no un requisito. Un espaciado disciplinado y esquivar te llevarán hasta el final, aunque cada pelea tarde más.
+
+**¿Cómo gestiono la munición durante peleas de jefe largas?**
+Presupuesta las balas pesadas por fase, recarga durante ventanas de stagger confirmadas y usa balas estándar para daño residual. Si te quedas sin munición antes de la fase final, probablemente tu estadística de daño sea demasiado baja o estés haciendo disparos de baja probabilidad.
+
+Domina lo fundamental —disciplina de estamina, presupuesto de munición y espaciado paciente— y el bucle soulslike de Guns of Eschaton dejará de sentirse como un experimento híbrido y empezará a sentirse como un género propio.

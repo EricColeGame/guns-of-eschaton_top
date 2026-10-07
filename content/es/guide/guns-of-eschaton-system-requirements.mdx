@@ -1,0 +1,149 @@
+export const metadata = {
+  title: "Requisitos del sistema de Guns of Eschaton: ¿Puede tu PC ejecutar este shooter?",
+  description: "Todo lo que necesitas saber sobre los requisitos del sistema de Guns of Eschaton: cómo leer los requisitos mínimos y recomendados, comprobar tu PC y solucionar los FPS bajos.",
+  category: "guide",
+  date: "2026-10-08",
+}
+
+Antes de pulsar el botón de compra, añadirlo a la lista de deseos o descargarlo, hay una pregunta que lo decide todo: ¿se ejecutará realmente en la máquina que tienes bajo el escritorio? **Los requisitos del sistema de Guns of Eschaton** son la forma más rápida y económica de responder a eso: te indican qué procesador, tarjeta gráfica, memoria y almacenamiento espera el desarrollador antes de que gastes un solo dólar. Equivocarte en esto significa reembolsos, tirones, bloqueos o un juego que técnicamente se inicia pero resulta injugable. Esta guía te explica cómo leer correctamente **los requisitos del sistema de Guns of Eschaton**, cómo comprobar tu propio hardware en unos cinco minutos y qué hacer cuando tu equipo se queda en algún punto entre "mínimo" y "recomendado".
+
+## Por qué los requisitos del sistema de Guns of Eschaton importan más de lo que crees
+
+La mayoría de las páginas de tiendas comprimen el hardware en un breve bloque de texto cerca del final de la página, y la mayoría de los jugadores lo ojea por encima. Eso es un error. Cada línea describe un cuello de botella distinto, y entender cuál se aplica a tu caso es la diferencia entre unos suaves 60 FPS y una presentación de diapositivas durante el primer tiroteo.
+
+Esto es lo que realmente controla cada línea de un bloque de requisitos típico:
+
+| Línea de requisitos | Qué controla | Señal de advertencia a la que prestar atención |
+|---|---|---|
+| Sistema operativo | Qué compilaciones de Windows/Linux son compatibles | Un SO de 32 bits indicado cuando usas hardware de 64 bits (o viceversa) |
+| Procesador (CPU) | Número de enemigos, físicas, IA y carga de simulación | Estás varias generaciones por debajo del chip indicado |
+| Memoria (RAM) | Cuánto puede retener el juego en memoria a la vez | Tienes exactamente la cantidad indicada con un navegador abierto |
+| Gráficos (GPU) | Resolución, texturas, iluminación y efectos | Solo tienes gráficos integrados cuando se indica una tarjeta dedicada |
+| DirectX / versión de API | Qué funciones de renderizado puede usar el juego | Tu controlador de GPU no admite la API indicada |
+| Almacenamiento | Tamaño de instalación y tiempos de carga | Tienes menos espacio libre que el requisito indicado |
+| Notas adicionales | VRAM, tarjetas de sonido, red, requisitos de cuenta | Requisitos enterrados en una nota al pie que la mayoría de la gente se salta |
+
+Los niveles importan tanto como las propias líneas:
+
+| Nivel | Qué suele significar | Lo que *no* garantiza |
+|---|---|---|
+| Mínimo | El juego se iniciará y será jugable con ajustes bajos | Rendimiento fluido, FPS altos o buenos gráficos |
+| Recomendado | La experiencia prevista; normalmente ajustes y tasas de fotogramas más altas | Ajustes máximos, 4K o compatibilidad con ultra-wide |
+| Alto de gama / Ultra (si se indica) | Margen para altas resoluciones y efectos | Que sea obligatorio; este nivel es opcional |
+
+Como regla general, los requisitos mínimos en las páginas de tiendas de este género suelen asociarse a 1080p a unos 30 FPS con ajustes bajos, mientras que los recomendados apuntan a 1080p a unos 60 FPS con ajustes altos. Los desarrolladores a veces indican sus objetivos exactos y a veces no, así que toma esas cifras como una convención, no como una promesa, y consulta siempre la ficha oficial.
+
+## Cómo encontrar los requisitos oficiales del sistema de Guns of Eschaton
+
+Internet está lleno de fichas de especificaciones obsoletas, copiadas y generadas automáticamente. Antes de confiar en cualquier cosa, ve a la fuente. El lugar más fiable para leer **los requisitos del sistema de Guns of Eschaton** actuales es la ficha oficial de la tienda, que el desarrollador actualiza cuando los parches cambian el rendimiento.
+
+Puedes abrir la ficha oficial a través de la [página de la tienda de Steam del juego](https://store.steampowered.com/search/?term=Guns+of+Eschaton) y desplazarte hasta la sección Requisitos del sistema, y luego hacer clic en "Ver todo" para consultar el bloque completo.
+
+| Fuente | Qué encontrarás | Fiabilidad |
+|---|---|---|
+| Página oficial de la tienda | Especificaciones mínimas + recomendadas canónicas, actualizadas con parches | Alta |
+| Sitio del desarrollador / editor y notas del parche | Correcciones de rendimiento y requisitos modificados | Alta |
+| Discord oficial o centro comunitario | Anuncios, notas de hotfix, respuestas de los desarrolladores | Media-alta |
+| Wikis y foros de la comunidad | Informes del mundo real de jugadores con hardware similar | Media (experiencia de jugador) |
+| Herramientas de terceros tipo "can you run it" | Comparaciones generadas automáticamente | Media-baja; a menudo van por detrás de los parches |
+| Listados de revendedores de claves | Bloques de especificaciones copiados | Baja; con frecuencia desactualizados |
+
+Algunos hábitos que te ahorran dolores de cabeza:
+
+- Comprueba si la página enumera **solo mínimos** o **mínimos más recomendados**. Una página que solo tiene mínimos te dice muy poco sobre la experiencia que obtendrás.
+- Busca la fecha de la última actualización en las notas del parche: si se publicó un parche de rendimiento después de que se escribieran las especificaciones, los requisitos indicados pueden ser conservadores.
+- Lee la línea "Notas adicionales". Ahí es donde se esconden los límites de VRAM, las API necesarias y los requisitos de cuenta.
+- Ignora los bloques de especificaciones en sitios de revendedores. Se copian en el lanzamiento y rara vez se mantienen.
+
+## Comprueba tu propio PC en cinco minutos
+
+No necesitas instalar nada para encontrar tus especificaciones. Windows incluye todo lo que necesitas, y las utilidades de terceros son extras opcionales para más detalle.
+
+| Herramienta | Qué muestra | Cómo abrirla |
+|---|---|---|
+| Configuración → Sistema → Acerca de | Modelo de CPU, RAM instalada, versión y compilación del SO | Menú Inicio → Configuración |
+| Administrador de tareas → Rendimiento | Actividad en vivo de CPU, GPU, RAM y disco | Ctrl + Shift + Esc |
+| dxdiag | Modelo de GPU, VRAM, versión del controlador, versión de DirectX | Win + R, escribe `dxdiag` |
+| Información del sistema | Resumen completo de hardware y software | Win + R, escribe `msinfo32` |
+| Configuración de almacenamiento | Espacio libre por unidad | Configuración → Sistema → Almacenamiento |
+| Utilidad del fabricante de GPU | Versión del controlador, temperaturas, relojes | NVIDIA App / AMD Software |
+
+El proceso de comparación en sí es sencillo:
+
+1. Anota el modelo **exacto** de tu CPU, no solo "i5" o "Ryzen 5", sino el número completo.
+2. Anota tu RAM total y si funciona en doble canal.
+3. Anota el modelo de tu GPU y cuánta VRAM dedicada tiene.
+4. Comprueba el espacio libre en disco de la unidad donde instalarías el juego.
+5. Confirma la versión de tu SO y que sea de 64 bits si el juego lo requiere.
+6. Compara línea por línea: un solo componente débil puede limitar toda tu experiencia.
+
+Una advertencia: los portátiles y los sobremesa preensamblados a menudo combinan una CPU potente con una GPU débil, o viceversa. Los requisitos se escriben como un objetivo para todo el sistema, pero en la práctica, normalmente un componente limita todo lo demás.
+
+## Realidades de portátiles, consolas portátiles y gráficos integrados
+
+Cumplir las especificaciones indicadas sobre el papel no siempre se traduce en una reproducción fluida en hardware portátil, porque la temperatura y los límites de energía lo cambian todo.
+
+| Tipo de dispositivo | Mayor cuello de botella | Qué comprobar primero |
+|---|---|---|
+| Portátil gaming | Limitación térmica bajo carga sostenida | La variante móvil exacta de tu GPU, no solo el nombre de la familia |
+| Portátil fino y ligero | Gráficos integrados que comparten la RAM del sistema | Si se indica o no una GPU dedicada |
+| PC gaming portátil | Capa de compatibilidad y estado verificado | La insignia de compatibilidad de la tienda y los informes de la comunidad |
+| Sobremesa antiguo con GPU dedicada | VRAM y antigüedad del controlador | Actualizaciones del controlador y ajustes de texturas |
+| Sobremesa moderno | Normalmente nada; tienes margen | Resolución y frecuencia de actualización del monitor |
+
+Si usas gráficos integrados, no entres en pánico, pero ajusta tus expectativas. Baja la resolución, usa una escala de resolución por debajo del 100 %, desactiva las sombras y los efectos volumétricos, y limita tu tasa de fotogramas. Los informes de la comunidad de jugadores con hardware similar son realmente útiles aquí; solo recuerda que la "experiencia de jugador" varía muchísimo según la refrigeración, las aplicaciones en segundo plano y la versión del controlador.
+
+## Ajustes tras la instalación: conseguir fotogramas fluidos
+
+Una vez que el juego se está ejecutando, unos cuantos ajustes te dan el mayor retorno de rendimiento por el menor coste visual.
+
+| Ajuste | Impacto en el rendimiento | Coste visual |
+|---|---|---|
+| Resolución / escala de resolución | Muy alto | Moderado |
+| Sombras | Alto | Moderado |
+| Volumétricos, niebla y rayos de luz | Alto | Moderado |
+| Antialiasing | Moderado | Bajo |
+| Calidad de texturas | Limitada por VRAM | Baja si tienes margen |
+| Desenfoque de movimiento | Bajo | Subjetivo; muchos jugadores lo desactivan |
+| V-Sync / límite de fotogramas | Bajo | Reduce el tearing y los tirones |
+
+Victorias rápidas que no cuestan nada:
+
+- Actualiza el controlador de tu GPU antes del primer inicio, no después del primer bloqueo.
+- Verifica los archivos del juego a través del cliente de tu tienda si ves texturas ausentes o bloqueos instantáneos.
+- Cierra superposiciones, navegadores y software de captura: roban CPU y VRAM.
+- Configura el plan de energía de Windows en Alto rendimiento o Rendimiento máximo.
+- Instálalo en un SSD si tienes uno; los tiempos de carga y el streaming de recursos mejoran notablemente.
+- Limita tu tasa de fotogramas unos pocos fotogramas por debajo de la frecuencia de actualización de tu monitor para reducir los tirones.
+- Vigila tus temperaturas. Una GPU o CPU que alcanza su límite térmico bajará la frecuencia en pleno combate.
+
+## Mitos comunes sobre los requisitos del sistema de Guns of Eschaton
+
+Leer mal las especificaciones es la razón número uno por la que los jugadores solicitan reembolsos. Estos son los mitos que causan más problemas.
+
+| Mito | Realidad |
+|---|---|
+| "Si cumplo los mínimos, funcionará genial." | Los mínimos significan jugable, normalmente con ajustes bajos y tasas de fotogramas más bajas. |
+| "Recomendado significa ajustes máximos." | Lo recomendado normalmente apunta a ajustes altos a 1080p, no a 4K ultra. |
+| "Más RAM soluciona todos los tirones." | Los tirones a menudo están limitados por la VRAM o por la CPU. |
+| "Los gráficos integrados no pueden ejecutar nada." | Muchos chips integrados modernos manejan títulos más ligeros con ajustes reducidos. |
+| "Las especificaciones de esa página de revendedor están actualizadas." | Los bloques de especificaciones copiados quedan obsoletos rápido; consulta la ficha oficial. |
+| "Las especificaciones nunca cambian después del lanzamiento." | Los parches de rendimiento y las actualizaciones pueden cambiarlas en cualquier dirección. |
+
+Si no estás seguro, compra en una plataforma con ventana de reembolso, pruébalo dentro de ese plazo y vigila los tiempos de fotograma, no solo tus FPS medios. La tasa de fotogramas media oculta los tirones, y los tirones son lo que realmente arruina la experiencia.
+
+## Preguntas frecuentes
+
+**¿Puedo ejecutar Guns of Eschaton con gráficos integrados?**
+Es posible, pero cuenta con bajar la resolución y desactivar efectos exigentes como las sombras y los volumétricos. Compara tu chip integrado concreto con la GPU mínima indicada en la página oficial de la tienda y consulta los informes de la comunidad de jugadores con hardware similar antes de comprar.
+
+**¿Los requisitos del sistema de Guns of Eschaton difieren entre tiendas?**
+Pueden diferir. Las distintas tiendas pueden mostrar bloques ligeramente diferentes, y las versiones regionales o específicas de plataforma (Windows frente a Linux/portátil) pueden variar. Trata siempre la página de la tienda del propio desarrollador como la versión autoritativa y contrasta las notas de los parches para ver cambios.
+
+**¿Cumplir los requisitos mínimos me dará 60 FPS?**
+No necesariamente. Los requisitos mínimos suelen corresponder a un objetivo jugable pero modesto, a menudo en torno a 30 FPS con ajustes bajos. Si los 60 FPS te importan, apunta a superar el nivel recomendado en lugar de solo cumplir el mínimo.
+
+**¿Con qué frecuencia se actualizan los requisitos del sistema de Guns of Eschaton?**
+Suelen revisarse cuando el desarrollador publica parches de rendimiento importantes, añade contenido nuevo o deja de dar soporte a hardware antiguo. Vuelve a consultar la ficha oficial después de las grandes actualizaciones, sobre todo si tu máquina estaba al límite antes.
+
+En resumen: lee **los requisitos del sistema de Guns of Eschaton** oficiales antes de comprar, mide tu propio hardware con honestidad y deja margen por encima del mínimo si te importa la tasa de fotogramas. Una comprobación de cinco minutos ahora es mejor que una solicitud de reembolso después, y si te quedas un poco corto, los consejos de ajuste anteriores a menudo pueden cerrar la diferencia.
