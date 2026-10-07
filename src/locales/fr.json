@@ -1,1 +1,466 @@
-{}
+{
+  "site": {
+    "name": "Guns of Eschaton Wiki",
+    "shortName": "Guns of Eschaton",
+    "tagline": "Armes, Builds, Ennemis & Guides",
+    "description": "Explorez le Guns of Eschaton Wiki pour les détails des armes, les guides de gameplay, les builds, les mécaniques, les stratégies et les informations essentielles pour aider les joueurs à maîtriser ce shooter post-apocalyptique.",
+    "legalNotice": "Wiki de fans non officiel. Fait par des joueurs, pour des joueurs."
+  },
+  "nav": {
+    "home": "Accueil",
+    "guide": "Guide",
+    "characters": "Personnages",
+    "mechanics": "Mécaniques",
+    "modes": "Modes",
+    "platforms": "Plateformes",
+    "release": "Sortie",
+    "menu": "Menu",
+    "toggleTheme": "Changer de thème"
+  },
+  "home": {
+    "meta": {
+      "title": "Guns of Eschaton Wiki - Armes, Builds & Guides",
+      "description": "Explorez le Guns of Eschaton Wiki pour les détails des armes, les guides de gameplay, les builds, les mécaniques, les stratégies et les informations essentielles pour aider les joueurs à maîtriser ce shooter post-apocalyptique."
+    },
+    "hero": {
+      "eyebrow": "Shooter post-apocalyptique",
+      "title": "Guns of Eschaton Wiki",
+      "description": "Un wiki communautaire couvrant les informations de gameplay de Guns of Eschaton : armes, personnages, mécaniques, stratégies et guides essentiels pour les joueurs.",
+      "stats": [
+        "Base de données d'armes",
+        "Builds & équipements",
+        "Guides des ennemis",
+        "Mises à jour régulières"
+      ],
+      "primaryCta": "Guide du débutant",
+      "secondaryCta": "Guide des armes",
+      "tertiaryCta": "Jouer sur Steam",
+      "videoLabel": "Médias officiels"
+    },
+    "updates": {
+      "title": "Dernières mises à jour",
+      "browse": "Parcourir tous les guides",
+      "viewAll": "Tout voir"
+    },
+    "start": {
+      "eyebrow": "Commencez ici",
+      "title": "Votre aventure Guns of Eschaton",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guide du débutant",
+          "description": "Apprenez la boucle principale sur laquelle repose chaque partie : choisir un équipement, nettoyer les vagues, récolter les butins et les dépenser en améliorations de survie avant le prochain combat."
+        },
+        {
+          "number": "2",
+          "title": "Armes & améliorations",
+          "description": "Comprenez les classes d'armes, l'économie des munitions et les chemins d'amélioration qui changent réellement le comportement d'une arme en combat."
+        },
+        {
+          "number": "3",
+          "title": "Bases des combats de boss",
+          "description": "Lisez les télégraphes, les changements de phase et les fenêtres de punition pour que votre premier véritable mur de boss devienne une victoire reproductible."
+        },
+        {
+          "number": "4",
+          "title": "Bâtissez votre survivant",
+          "description": "Planifiez votre personnage autour d'archétypes et de priorités d'attributs qui décident quelles armes et capacités s'ouvrent tôt."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Pages populaires",
+      "title": "Tendances actuelles",
+      "quickLinks": [
+        "Guide du débutant",
+        "Guide des armes",
+        "Guide des boss",
+        "Guide coop"
+      ],
+      "cards": [
+        {
+          "badge": "Débutant",
+          "title": "Guide du débutant",
+          "description": "Boucle principale, déplacement, choix d'armes et priorités d'amélioration qui gardent vos premières parties en vie.",
+          "href": "/guide/guns-of-eschaton-beginner-guide"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Guide des armes",
+          "description": "Classes d'armes, chemins d'amélioration, économie des munitions et comment bâtir un équipement qui comble ses lacunes.",
+          "href": "/mechanics/guns-of-eschaton-weapons"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Guide des boss",
+          "description": "Télégraphes, changements de phase et fenêtres de punition qui transforment des combats brutaux en éliminations propres.",
+          "href": "/mechanics/guns-of-eschaton-bosses"
+        },
+        {
+          "badge": "Mis à jour",
+          "title": "Création de personnage",
+          "description": "Archétypes, priorités d'attributs et les pièges qui ruinent des builds de survivant autrement solides.",
+          "href": "/guide/guns-of-eschaton-character-creation"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Date de sortie",
+          "description": "Comment distinguer les nouvelles de lancement confirmées des rumeurs et suivre la date officielle.",
+          "href": "/release/guns-of-eschaton-release-date"
+        },
+        {
+          "badge": "Mis à jour",
+          "title": "Configuration requise",
+          "description": "Lisez les specs minimales et recommandées, vérifiez votre PC et corrigez les FPS faibles avant d'acheter.",
+          "href": "/guide/guns-of-eschaton-system-requirements"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Qu'est-ce que Guns of Eschaton ?",
+      "paragraphs": [
+        "Guns of Eschaton est un FPS soulslike centré sur les armes, situé dans un désert western post-apocalyptique. Vous créez un survivant, choisissez un équipement et affrontez des vagues d'ennemis croissantes où le positionnement, l'économie des munitions et le timing comptent plus que la puissance de feu brute.",
+        "Chaque partie suit la même boucle : nettoyer une vague, récolter ce qui tombe, le convertir en améliorations, puis affronter une arène plus difficile ou un boss qui teste votre reconnaissance des schémas. Notre wiki décompose armes, builds, boss, modes et progression pour que vous puissiez planifier chaque partie au lieu de deviner."
+      ],
+      "stats": [
+        {
+          "label": "Développeur",
+          "value": "Eschatology Entertainment"
+        },
+        {
+          "label": "Genre",
+          "value": "FPS soulslike"
+        },
+        {
+          "label": "Cadre",
+          "value": "Ouest post-apocalyptique"
+        },
+        {
+          "label": "Plateformes",
+          "value": "PC, PS5 & Xbox"
+        },
+        {
+          "label": "Démo",
+          "value": "Disponible"
+        },
+        {
+          "label": "Coop",
+          "value": "En escouade"
+        },
+        {
+          "label": "Sortie",
+          "value": "À annoncer"
+        }
+      ],
+      "cta": "Explorer tous les guides"
+    },
+    "explore": {
+      "title": "Explorez le Guns of Eschaton Wiki",
+      "description": "Maîtrisez le désert avec les guides essentiels de Guns of Eschaton couvrant les bases du débutant, les armes, les builds, les ennemis, les infos de sortie, la lore, la configuration PC et les mises à jour.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guide du débutant Guns of Eschaton",
+          "description": "Apprenez la boucle principale, le déplacement, les choix d'armes et les priorités d'amélioration qui gardent vos premières heures en vie. Cible des recherches comme how to play Guns of Eschaton et des conseils de démarrage.",
+          "href": "/guide/guns-of-eschaton-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Apprenez la boucle de partie : choisir un équipement, nettoyer les ennemis, récolter les butins, puis améliorer."
+            },
+            {
+              "label": "2",
+              "detail": "Traitez le déplacement comme votre principale défense : esquivez, gardez une sortie et rechargez à couvert."
+            },
+            {
+              "label": "3",
+              "detail": "Choisissez une arme pour le problème devant vous au lieu de courir après les dégâts bruts."
+            },
+            {
+              "label": "4",
+              "detail": "Dépensez vos premières améliorations pour rester en vie, pas pour courir après un build parfait."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guide des armes Guns of Eschaton",
+          "description": "Un regard pratique sur les classes d'armes, les chemins d'amélioration, l'économie des munitions et la structure d'équipement, visant les recherches sur Guns of Eschaton weapons et les rôles des armes.",
+          "href": "/mechanics/guns-of-eschaton-weapons",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Fusils",
+              "detail": "Les fusils standard gèrent les combats mobiles à moyenne portée et couvrent le plus large éventail de rencontres."
+            },
+            {
+              "label": "Fusils à pompe",
+              "detail": "Les rafales à courte portée nettoient les couloirs et les arènes serrées mais perdent vite en efficacité à distance."
+            },
+            {
+              "label": "Tireurs d'élite",
+              "detail": "Les armes de précision éliminent les cibles prioritaires sur de longues lignes de vue."
+            },
+            {
+              "label": "Armes de poing",
+              "detail": "Les armes secondaires achèvent les cibles blessées et couvrent les temps de rechargement."
+            },
+            {
+              "label": "Lourdes",
+              "detail": "Les armes de zone contrôlent les groupes denses et les points de passage au prix de la maniabilité."
+            },
+            {
+              "label": "Exotiques",
+              "detail": "Les armes de haut niveau contournent les règles et définissent les synergies de build."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guide des builds Guns of Eschaton",
+          "description": "Planifiez un survivant autour d'archétypes, d'attributs et de synergies d'amélioration, pour les joueurs cherchant les meilleures combinaisons de builds et styles de jeu Guns of Eschaton.",
+          "href": "/guide/guns-of-eschaton-character-creation",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Builds de survivant équilibrés associant un fusil polyvalent à la mobilité et à la régénération."
+            },
+            {
+              "label": "A",
+              "detail": "Builds de précision construits autour d'armes de tireur d'élite et de fenêtres de punition."
+            },
+            {
+              "label": "B",
+              "detail": "Builds de corps à corps s'appuyant sur les fusils à pompe et le contrôle de zone."
+            },
+            {
+              "label": "C",
+              "detail": "Builds de soutien et d'utilité qui brillent en jeu d'escouade."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guide des ennemis Guns of Eschaton",
+          "description": "Comprenez les comportements, faiblesses et approches de combat des ennemis, en phase avec les recherches sur les types d'ennemis, les boss et comment vaincre les rencontres difficiles.",
+          "href": "/mechanics/guns-of-eschaton-bosses",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Boss",
+              "detail": "Rencontres multi-phases construites autour de télégraphes et de fenêtres de punition."
+            },
+            {
+              "label": "Élites",
+              "detail": "Ennemis plus coriaces qui gardent des ressources et bloquent des routes clés."
+            },
+            {
+              "label": "Essaims",
+              "detail": "Groupes denses qui punissent l'immobilité et récompensent le contrôle de zone."
+            },
+            {
+              "label": "Rituels",
+              "detail": "Rencontres spéciales qui modifient la pression de l'arène et le comportement des ennemis."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Date de sortie de Guns of Eschaton",
+          "description": "Suivez les informations de sortie, les plateformes, les éditions et la disponibilité de la démo, ciblant les recherches à fort volume sur la date de sortie et le statut de lancement de Guns of Eschaton.",
+          "href": "/release/guns-of-eschaton-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Statut",
+              "detail": "Aucun jour de lancement n'est encore confirmé indépendamment : vérifiez les changements sur les pages officielles des boutiques."
+            },
+            {
+              "label": "Plateformes",
+              "detail": "Les fiches indiquent PC via Steam, PlayStation 5 et Xbox."
+            },
+            {
+              "label": "Démo",
+              "detail": "Une démo jouable vous permet de tester la boucle principale et votre matériel avant le lancement."
+            },
+            {
+              "label": "Liste de souhaits",
+              "detail": "Ajoutez le jeu à votre liste de souhaits pour être averti dès qu'une date est fixée."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guide de lore Guns of Eschaton",
+          "description": "Explorez le cadre western apocalyptique, les factions, les personnages et le contexte de l'histoire, ciblant les recherches sur l'histoire et les détails du monde de Guns of Eschaton.",
+          "href": "/mechanics/guns-of-eschaton-story",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Cadre",
+              "detail": "Un désert western post-apocalyptique où les armes à feu décident de la survie."
+            },
+            {
+              "label": "Factions",
+              "detail": "Des groupes rivaux et leurs motivations déterminent qui se bat contre qui."
+            },
+            {
+              "label": "Mystère",
+              "detail": "L'histoire est racontée par fragments que vous assemblez au fil des parties."
+            },
+            {
+              "label": "Thèmes",
+              "detail": "L'imagerie de fin du monde et la survie dictent le ton narratif."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Configuration requise pour Guns of Eschaton",
+          "description": "Vérifiez la configuration PC, les recommandations matérielles, les besoins de stockage et les conseils de performance, ciblant les recherches pour savoir si vous pouvez faire tourner Guns of Eschaton.",
+          "href": "/guide/guns-of-eschaton-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Confirmez une version 64 bits de Windows prise en charge avant d'acheter."
+            },
+            {
+              "label": "CPU",
+              "detail": "Le processeur gère le nombre d'ennemis, l'IA et la charge physique."
+            },
+            {
+              "label": "GPU",
+              "detail": "Votre carte graphique décide de la résolution, des effets et du taux de rafraîchissement."
+            },
+            {
+              "label": "RAM",
+              "detail": "La mémoire affecte la stabilité pendant les vagues d'ennemis denses."
+            },
+            {
+              "label": "Stockage",
+              "detail": "Gardez de la marge pour l'installation, les correctifs et les caches de shaders."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Actualités et mises à jour de Guns of Eschaton",
+          "description": "Suivez les annonces officielles, les correctifs, les nouvelles de la démo et les bandes-annonces, capturant les recherches sur les mises à jour et les dernières nouvelles de Guns of Eschaton.",
+          "href": "/release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Correctifs",
+              "detail": "Les changements d'équilibrage modifient le réglage des armes et des boss entre les versions."
+            },
+            {
+              "label": "Démo",
+              "detail": "Les mises à jour de la démo révèlent tôt les changements de combat et de performance."
+            },
+            {
+              "label": "Bandes-annonces",
+              "detail": "Les médias officiels montrent de nouvelles armes, ennemis et lieux."
+            },
+            {
+              "label": "Feuille de route",
+              "detail": "Les mises à jour des développeurs esquissent le contenu futur et les plans de lancement."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Réponses rapides aux questions les plus courantes sur Guns of Eschaton.",
+      "items": [
+        {
+          "question": "Qu'est-ce que Guns of Eschaton ?",
+          "answer": "Guns of Eschaton est un FPS soulslike centré sur les armes, situé dans un désert western post-apocalyptique. Vous créez un survivant, choisissez un équipement et affrontez des vagues d'ennemis croissantes où le positionnement, l'économie des munitions et le timing comptent plus que la puissance de feu brute."
+        },
+        {
+          "question": "Comment les débutants devraient-ils commencer Guns of Eschaton ?",
+          "answer": "Commencez par la boucle principale : apprenez à vous déplacer, apprenez le rythme de votre arme et dépensez vos premières améliorations pour rester en vie. Le guide du débutant de Guns of Eschaton couvre les commandes, le combat et la progression initiale en détail."
+        },
+        {
+          "question": "Sur quelles plateformes Guns of Eschaton est-il disponible ?",
+          "answer": "Les fiches des boutiques indiquent PC via Steam, PlayStation 5 et Xbox, et une démo jouable vous permet de tester le jeu avant le lancement."
+        },
+        {
+          "question": "Y a-t-il une date de sortie pour Guns of Eschaton ?",
+          "answer": "Aucun jour de lancement n'est encore confirmé indépendamment. Ajoutez le jeu à votre liste de souhaits et surveillez les pages officielles, où une date finale apparaîtra en premier."
+        },
+        {
+          "question": "Guns of Eschaton a-t-il un mode coop ?",
+          "answer": "Oui. Le coop de Guns of Eschaton transforme une partie en puzzle de survie partagé où les rôles, les réanimations et le timing de rechargement doivent être coordonnés avec votre escouade."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêt à maîtriser Guns of Eschaton ?",
+      "description": "De votre premier échange de tirs dans le désert aux rencontres finales avec les boss, notre wiki communautaire vous couvre avec des guides gratuits et à jour.",
+      "primary": "Lire le guide du débutant",
+      "secondary": "Jouer sur Steam"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navigation du wiki",
+    "updated": "Mis à jour",
+    "playOnRoblox": "Jouer sur Steam",
+    "inThisSection": "Dans cette section",
+    "tableOfContents": "Table des matières",
+    "nextSteps": "Étapes suivantes",
+    "needHelp": "Besoin d'aide ?",
+    "relatedReading": "Lectures associées",
+    "relatedGuides": "Guides associés",
+    "readMore": "Lire la suite",
+    "officialMedia": "Médias officiels",
+    "home": "Accueil",
+    "noGuidesAvailable": "Aucun guide disponible pour l'instant. Revenez bientôt !"
+  },
+  "guide": {
+    "overviewTitle": "Guides Guns of Eschaton",
+    "overviewDescription": "Commencez ici pour les guides du débutant, les walkthroughs de gameplay, les stratégies de boss, les conseils de création de personnage et la configuration requise de Guns of Eschaton."
+  },
+  "characters": {
+    "overviewTitle": "Personnages de Guns of Eschaton",
+    "overviewDescription": "Rencontrez le casting de Guns of Eschaton, du survivant principal aux développeurs, au directeur artistique et aux acteurs de doublage de ce western post-apocalyptique."
+  },
+  "mechanics": {
+    "overviewTitle": "Mécaniques de jeu de Guns of Eschaton",
+    "overviewDescription": "Comprenez les systèmes soulslike de Guns of Eschaton : armes, boss, niveaux de difficulté, structure en monde ouvert, histoire et gameplay de combat central."
+  },
+  "modes": {
+    "overviewTitle": "Modes de jeu de Guns of Eschaton",
+    "overviewDescription": "Comparez toutes les façons de jouer à Guns of Eschaton, y compris solo, coop, multijoueur, PvP et prise en charge du crossplay."
+  },
+  "platforms": {
+    "overviewTitle": "Plateformes Guns of Eschaton",
+    "overviewDescription": "Vérifiez où Guns of Eschaton est disponible, avec des détails sur les versions PC, Steam, PS5, Xbox et Nintendo Switch."
+  },
+  "release": {
+    "overviewTitle": "Infos de sortie de Guns of Eschaton",
+    "overviewDescription": "Suivez les nouvelles sur la date de sortie de Guns of Eschaton, la disponibilité de la bêta et de la démo, le prix et les dernières bandes-annonces."
+  },
+  "footer": {
+    "aboutTitle": "Guns of Eschaton Wiki",
+    "about": "Le Guns of Eschaton Wiki est un hub de guides indépendant créé par des fans, couvrant les armes, les builds, les ennemis, les mécaniques et l'essentiel des connaissances du jeu pour les nouveaux joueurs comme les vétérans.",
+    "quickLinks": "Liens rapides",
+    "guides": "Guides",
+    "legal": "Mentions légales",
+    "copyright": "2026 Guns of Eschaton Wiki. Non affilié aux développeurs ou éditeurs du jeu.",
+    "description": "FPS soulslike post-apocalyptique. Maîtrisez les armes, les builds et la survie dans le désert.",
+    "playGame": "Jouer à Guns of Eschaton sur Steam",
+    "officialDiscord": "Discord officiel",
+    "officialYoutube": "YouTube officiel",
+    "vvBuilder": "Planificateur de build",
+    "beginnerGuide": "Guide du débutant",
+    "raceGuides": "Guide des armes",
+    "bossGuides": "Guide des ennemis",
+    "buildGuide": "Guide des builds",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation"
+  }
+}
