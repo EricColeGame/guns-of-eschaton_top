@@ -1,0 +1,14 @@
+{
+  "name": "guns-of-eschaton-top",
+  "compatibility_date": "2024-09-01",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./out"
+  },
+  "routes": [
+    {
+      "pattern": "guns-of-eschaton.top",
+      "custom_domain": true
+    }
+  ]
+}
