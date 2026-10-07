@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core loop every run is built on: choose a loadout, clear waves, collect drops, and spend them on survival upgrades before the next fight."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Weapons & Upgrades",
+          "description": "Understand weapon classes, ammo economy, and which upgrade paths actually change how a gun performs in a fight."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Boss Fight Basics",
+          "description": "Read telegraphs, phase changes, and punish windows so your first real boss wall becomes a repeatable win."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Guns of Eschaton."
+          "title": "Build Your Survivor",
+          "description": "Plan your character around archetypes and attribute priorities that decide which weapons and abilities open up early."
         }
       ]
     },
@@ -66,237 +66,301 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Weapons Guide",
+        "Boss Guide",
+        "Co-Op Guide"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Core loop, movement, weapon picks, and the upgrade priorities that keep early runs alive.",
+          "href": "/guide/guns-of-eschaton-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Weapons Guide",
+          "description": "Weapon classes, upgrade paths, ammo economy, and how to build a loadout that covers its gaps.",
+          "href": "/mechanics/guns-of-eschaton-weapons"
+        },
+        {
+          "badge": "Popular",
+          "title": "Bosses Guide",
+          "description": "Telegraphs, phase changes, and punish windows that turn brutal fights into clean kills.",
+          "href": "/mechanics/guns-of-eschaton-bosses"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "Character Creation",
+          "description": "Archetypes, attribute priorities, and the traps that ruin otherwise solid survivor builds.",
+          "href": "/guide/guns-of-eschaton-character-creation"
+        },
+        {
+          "badge": "New",
+          "title": "Release Date",
+          "description": "How to separate confirmed launch news from rumors and track the official date.",
+          "href": "/release/guns-of-eschaton-release-date"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "System Requirements",
+          "description": "Read min and recommended specs, check your PC, and fix low FPS before you buy.",
+          "href": "/guide/guns-of-eschaton-system-requirements"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Guns of Eschaton?",
       "paragraphs": [
-        "Guns of Eschaton is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Guns of Eschaton is a gun-driven soulslike FPS set in a post-apocalyptic Western wasteland. You build a survivor, choose a loadout, and fight through escalating enemy waves where positioning, ammo economy, and timing matter more than raw firepower.",
+        "Every run follows the same loop: clear a wave, collect what drops, convert it into upgrades, then face a harder arena or a boss that tests your pattern recognition. Our wiki breaks down weapons, builds, bosses, modes, and progression so you can plan each run instead of guessing."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
-        },
-        {
-          "label": "Platform",
-          "value": "Roblox"
+          "value": "Eschatology Entertainment"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Soulslike FPS"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Setting",
+          "value": "Post-Apocalyptic West"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Platforms",
+          "value": "PC, PS5 & Xbox"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Demo",
+          "value": "Available"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Co-Op",
+          "value": "Squad-Based"
+        },
+        {
+          "label": "Release",
+          "value": "To Be Announced"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Guns of Eschaton Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master the wasteland with essential Guns of Eschaton guides covering beginner basics, weapons, builds, enemies, release info, lore, PC requirements, and updates.",
       "modules": [
         {
           "order": 1,
-          "name": "Guns of Eschaton Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/guns-of-eschaton-codes",
-          "displayType": "code-box",
+          "name": "Guns of Eschaton Beginner Guide",
+          "description": "Learn the core loop, movement, weapon choices, and upgrade priorities that keep your first hours alive. Targets searches such as how to play Guns of Eschaton and starter tips.",
+          "href": "/guide/guns-of-eschaton-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Learn the run loop: choose a loadout, clear enemies, collect drops, then upgrade."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Treat movement as your main defense: strafe, keep an exit, and reload behind cover."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Pick a weapon for the problem in front of you instead of chasing raw damage."
+            },
+            {
+              "label": "4",
+              "detail": "Spend early upgrades on staying alive, not on chasing a perfect build."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/guns-of-eschaton-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Guns of Eschaton Weapons Guide",
+          "description": "A practical look at weapon classes, upgrade paths, ammo economy, and loadout structure, aimed at searches for Guns of Eschaton weapons and gun roles.",
+          "href": "/mechanics/guns-of-eschaton-weapons",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Rifles",
+              "detail": "Standard rifles handle mid-range, mobile fights and cover the widest range of encounters."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Shotguns",
+              "detail": "Close-quarters burst clears corridors and tight arenas but falls off fast at distance."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Marksman",
+              "detail": "Precision weapons delete priority targets across long sightlines."
+            },
+            {
+              "label": "Sidearms",
+              "detail": "Secondary weapons finish wounded targets and cover reload gaps."
+            },
+            {
+              "label": "Heavy",
+              "detail": "Area weapons control dense packs and chokepoints at the cost of handling."
+            },
+            {
+              "label": "Exotic",
+              "detail": "High-tier guns bend the rules and define build synergies."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/guns-of-eschaton-tier-list",
+          "name": "Guns of Eschaton Builds Guide",
+          "description": "Plan a survivor around archetypes, attributes, and upgrade synergies, targeting players looking for the best Guns of Eschaton build combinations and playstyles.",
+          "href": "/guide/guns-of-eschaton-character-creation",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Balanced survivor builds that pair a generalist rifle with mobility and sustain."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Precision builds built around marksman weapons and punish windows."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Close-quarters builds that lean on shotguns and area control."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Support and utility builds that shine in squad play."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/guns-of-eschaton-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Guns of Eschaton Enemies Guide",
+          "description": "Understand enemy behaviors, weaknesses, and combat approaches, matching searches around enemy types, bosses, and how to defeat difficult encounters.",
+          "href": "/mechanics/guns-of-eschaton-bosses",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Bosses",
+              "detail": "Multi-phase encounters built around telegraphs and punish windows."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Elites",
+              "detail": "Tougher enemies that guard resources and block key routes."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Swarms",
+              "detail": "Dense groups that punish standing still and reward area control."
+            },
+            {
+              "label": "Rituals",
+              "detail": "Special encounters that change arena pressure and enemy behavior."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/guns-of-eschaton-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Guns of Eschaton Release Date",
+          "description": "Track release information, platforms, editions, and demo availability, targeting high-volume searches about Guns of Eschaton release date and launch status.",
+          "href": "/release/guns-of-eschaton-release-date",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Status",
+              "detail": "No launch day is independently confirmed yet: verify changes on official store pages."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Platforms",
+              "detail": "Listings point to PC via Steam, PlayStation 5, and Xbox."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Demo",
+              "detail": "A playable demo lets you test the core loop and your hardware before launch."
+            },
+            {
+              "label": "Wishlist",
+              "detail": "Add the game on your storefront to get notified the moment a date is locked."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/guns-of-eschaton-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Guns of Eschaton Lore Guide",
+          "description": "Explore the apocalyptic Western setting, factions, characters, and story background, targeting searches for Guns of Eschaton story and world details.",
+          "href": "/mechanics/guns-of-eschaton-story",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Setting",
+              "detail": "A post-apocalyptic Western wasteland where firearms decide survival."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Factions",
+              "detail": "Rival groups and their motives shape who fights whom."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Mystery",
+              "detail": "The story is told through fragments you assemble across runs."
+            },
+            {
+              "label": "Themes",
+              "detail": "End-times imagery and survival drive the narrative tone."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guns of Eschaton System Requirements",
+          "description": "Check PC requirements, hardware recommendations, storage needs, and performance tips, targeting searches about whether you can run Guns of Eschaton.",
+          "href": "/guide/guns-of-eschaton-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Confirm a supported 64-bit Windows build before you buy."
+            },
+            {
+              "label": "CPU",
+              "detail": "The processor drives enemy counts, AI, and physics load."
+            },
+            {
+              "label": "GPU",
+              "detail": "Your graphics card decides resolution, effects, and frame rate."
+            },
+            {
+              "label": "RAM",
+              "detail": "Memory affects stability during dense enemy waves."
+            },
+            {
+              "label": "Storage",
+              "detail": "Leave headroom for the install, patches, and shader caches."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Guns of Eschaton News Updates",
+          "description": "Follow official announcements, patches, demo news, and trailers, capturing searches for Guns of Eschaton updates and the latest news.",
+          "href": "/release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Balance changes shift weapon and boss tuning between builds."
+            },
+            {
+              "label": "Demo",
+              "detail": "Demo updates reveal combat and performance changes early."
+            },
+            {
+              "label": "Trailers",
+              "detail": "Official media shows new weapons, enemies, and locations."
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Developer updates outline future content and launch plans."
             }
           ]
         }
@@ -308,23 +372,23 @@
       "items": [
         {
           "question": "What is Guns of Eschaton?",
-          "answer": "Guns of Eschaton is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Guns of Eschaton is a gun-driven soulslike FPS set in a post-apocalyptic Western wasteland. You build a survivor, pick a loadout, and fight through escalating enemy waves where positioning, ammo economy, and timing matter more than raw firepower."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How should beginners start Guns of Eschaton?",
+          "answer": "Start with the core loop: learn to move, learn your weapon's rhythm, and spend your first upgrades on staying alive. The Guns of Eschaton beginner guide covers controls, combat, and early progression in detail."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What platforms is Guns of Eschaton on?",
+          "answer": "Store listings point to PC via Steam, PlayStation 5, and Xbox, and a playable demo lets you test the game before launch."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Is there a Guns of Eschaton release date?",
+          "answer": "No launch day is independently confirmed yet. Wishlist the game on your storefront and watch the official pages, which is where a final date will appear first."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Does Guns of Eschaton have co-op?",
+          "answer": "Yes. Guns of Eschaton co-op turns a run into a shared survival puzzle where roles, revives, and reload timing have to be coordinated with your squad."
         }
       ]
     },
